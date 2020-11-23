@@ -85,11 +85,17 @@ public class completeaction {
 		WebElement orderno = driver.findElement(By.id("order_no"));
 		String am = orderno.getAttribute("value");
 		System.out.println(am);
-		
+
+		Thread.sleep(10000);
+		WebElement orderno = driver.findElement(By.id("order_no"));
+		String am = orderno.getAttribute("value");
+		System.out.println(am);
+
+		// git another repo
+		System.out.println("Badboy Repo");
+
 		// git own repo
 		System.out.println("Ashick");
 	}
-	
-	
 
 }
